@@ -239,7 +239,7 @@ section p {
 }
 
 .question {
-    border: 2px solid aqua;
+    border: 2px solid #2E8B57;
     border-radius: 10px;
     padding: 20px;
     background-color: #f0f8ff;
@@ -252,18 +252,23 @@ section p {
     font-size: 16px;
     color: #333;
     background-color: #e0f7fa;
-    border: 2px solid aqua;
+    border: 2px solid #2E8B57;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .option:hover {
-    background-color: aqua;
+    background-color: #2E8B57;
     color: white;
 }
 
 .feedback {
     margin-top: 10px;
     font-weight: bold;
+}
+
+.imgTyper{
+    min-width: 300px;
+    max-width: 300px;
 }
