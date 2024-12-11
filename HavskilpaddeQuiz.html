@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Havskilpadde Quiz</title>
+    <link rel="stylesheet" href="./Styling/styles.css">
+    <script src="./quiz.js" defer></script>
+</head>
+<body>
+    <nav>
+        <a href="Nettsideprosjekt.html">Main</a>
+        <a href="havskilpaddeInfo.html">Info</a>
+        <a href="HavskilpaddeDonasjon.html">Donasjoner</a>
+        <a href="HavskilpaddeArter.html" >Arter</a>
+        <a href="HavskilpaddeQuiz.html" class="active">Quiz</a>
+    </nav>
+    <main>
+        <header>
+            <h1>Havskilpadde Quiz</h1>
+        </header>
+        <section id="quiz-section">
+            <div class="question">
+                <p>1. Hvor mange arter av havskilpadder finnes det?</p>
+                <button class="option" onclick="checkAnswer(1, false)">5</button>
+                <button class="option" onclick="checkAnswer(1, false)">10</button>
+                <button class="option" onclick="checkAnswer(1, true)">7</button>
+            </div>
+            <div class="question">
+                <p>2. Hva spiser havskilpadder ofte ved en feil?</p>
+                <button class="option" onclick="checkAnswer(2, false)">Fisk</button>
+                <button class="option" onclick="checkAnswer(2, true)">Plast</button>
+                <button class="option" onclick="checkAnswer(2, false)">Tang</button>
+            </div>
+            <div class="question">
+                <p>3. Hvor lenge kan en havskilpadde leve?</p>
+                <button class="option" onclick="checkAnswer(3, true)">Over 100 år</button>
+                <button class="option" onclick="checkAnswer(3, false)">20 år</button>
+                <button class="option" onclick="checkAnswer(3, false)">50 år</button>
+            </div>
+        </section>
+        <footer>
+            Forfatter og grafisk designer <em>Markus.S</em>. Utgivelsesdato: <em>(21. oktober 2024)</em>
+        </footer>
+    </main>
+</body>
+</html>
