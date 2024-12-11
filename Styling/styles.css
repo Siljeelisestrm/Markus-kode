@@ -9,7 +9,7 @@
         "footer";
     min-height: 100vh; /* Sikrer at footer holder seg nederst */
 }
-
+/* styler teksten på info siden */
 .infoText{
     text-align: right;
     margin-bottom: 50px;
@@ -87,13 +87,15 @@ nav a {
     transition: all 0.3s ease;
 }
 
+/* Styling for når man hovrer over noe i navigasjonsmenyen */
 nav a:hover {
     background-color: #4CAF50;
     border-color: white;
     color: black;
 }
 
-nav a.active {
+/* Styling for siden man er inne på i navigasjonsmenyen */
+nav a.active { 
     background-color: #4CAF50;
     border-color: white;
     color: black;
@@ -125,6 +127,7 @@ footer {
     border-top: 3px solid #2E8B57;
 }
 
+/* info siden */
 .info-grid {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
@@ -186,6 +189,7 @@ footer {
     border-radius: 8px;
 }
 
+/* donasjons siden */
 .donate {
     display: flex;
     flex-direction: column;
@@ -232,6 +236,7 @@ section p {
     text-align: left;
 }
 
+/* quiz siden */
 #quiz-section {
     display: grid;
     gap: 20px;
@@ -268,6 +273,7 @@ section p {
     font-weight: bold;
 }
 
+/* side med typer av skilpadder */
 .imgTyper{
     min-width: 300px;
     max-width: 300px;
