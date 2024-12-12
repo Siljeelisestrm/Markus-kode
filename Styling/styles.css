@@ -65,6 +65,7 @@ header {
 /* Main */
 main {
     grid-area: main;
+    padding: 20px;
 }
 
 /* Footer */
@@ -96,7 +97,7 @@ footer .footer-content a:hover {
     color: #2E8B57;
 }
 
-/* info siden */
+/* Info siden */
 .info-grid {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
@@ -131,6 +132,7 @@ footer .footer-content a:hover {
     border-top: 5px solid #28a745; 
     margin: 20px 0;
 }
+
 .fat-green-line {
     background-color: #333333;
     color: white;
@@ -138,8 +140,8 @@ footer .footer-content a:hover {
     padding: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
-
 }
+
 .bottom-section {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -164,6 +166,7 @@ footer .footer-content a:hover {
     border-radius: 8px;
 }
 
+/* Sentraliserer bildet */
 .imgBigCenter {
     display: block;
     margin-left: auto;
@@ -172,13 +175,14 @@ footer .footer-content a:hover {
     height: auto;
 }
 
+/* Hvit bakgrunn for seksjonen */
 section.backgroundWhite {
     background-color: #ffffff;
     display: flex;
     padding: 20px;
 }
 
-/* donasjons siden */
+/* Donasjons siden */
 .donate {
     display: flex;
     flex-direction: column;
@@ -201,6 +205,7 @@ section.backgroundWhite {
     color: #333;
 }
 
+/* Generell seksjon styling */
 section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -225,7 +230,7 @@ section p {
     text-align: left;
 }
 
-/* quiz siden */
+/* Quiz siden */
 #quiz-section {
     display: grid;
     gap: 20px;
@@ -262,8 +267,8 @@ section p {
     font-weight: bold;
 }
 
-/* side med typer av skilpadder */
-.imgTyper{
+/* Side med typer av skilpadder */
+.imgTyper {
     min-width: 300px;
     max-width: 300px;
 }
